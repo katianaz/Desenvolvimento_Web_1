@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dados de compra</title>
+  <meta charset="utf-8"/>
+</head>
+<body>
+
+  <h1>Dados do Cliente</h1>
+    Nome Completo:<br>
+    <input type="text" name="full_name"><br>
+    CPF:<br>
+    <input type="number" CPF="CPF"><br><br>
+
+<h1>Dados do Produto</h1>
+    <input type="radio" name="model" value="Samsung A10" checked> Samsung A10<br>
+    <input type="radio" name="model" value="Xiaomi Redmi 9A"> Xiaomi Redmi 9A<br>
+
+    <textarea name="Observações" rows="10" cols="30">
+        Observações sobre o produto.
+      </textarea><br>
+    
+    <h1>Forma de Pagamento</h1>
+    <p>Escolha a melhor forma de pagamento</p>
+
+    
+      <input type="radio" name="Cartão" value="Cartão" checked> Cartão de Crédio<br>
+      <select name="Pagamento">
+        <option value="cartão">MasterCard</option>
+        <option value="cartão">VISA</option>
+      <input type="radio" name="Boleto" value="Boleto"> Boleto Bancário<br>
+
+      Nome do Cartão:<br>
+      <input type="text" name="Nome do cartão"></br>
+      Número do Cartão:<br>
+      <input type="number" Número do Cartão="Número do Cartão"></br>
+      Código de Segurança:<br>
+      <input type="number" Código de Segurança="Código de Segurança"></br>
+      Número de parcelas:<br>
+      <select name="Número de Parcelas">
+        <option value="1x">1x</option>
+        <option value="3x">2x</option>
+        <option value="3x">3x</option>
+        <option value="3x">4x</option>
+        <option value="3x">5x</option>
+        <option value="3x">6x</option>
+      </select></br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
